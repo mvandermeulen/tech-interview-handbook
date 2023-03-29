@@ -38,16 +38,10 @@ Typically, behavioral interview questions can be split into several types:
 
 Companies value behavioral skills and do evaluate candidates on them. At the time of writing, Facebook has one round (out of four) dedicated to behavioral interviews. Airbnb has TWO rounds (out of six) dedicated to behavioral interviews/company fit. Lyft has one round (out of five) dedicated to past experience and situational questions by a hiring manager.
 
-## How are behavioral interviews evaluated
+From the company's perspective, the interview has two purposes:
 
-Unlike technical interviews, behavioral interviews have a lot more variance in terms of evaluation criteria. However, most top tech companies use their company values to evaluate candidates. Interviewers typically have to fill in a section evaluating how a candidate has displayed behaviors in line with company values. It is for this reason that you should search up a company's culture and values and ensure that you embody them within your answers. You'd also find it useful to speak with one of your connections currently working at the company you are applying for to find out more about which values are typically valued in the team.
-
-Some examples of common values evaluated are:
-
-- **Empathy** - Puts themselves in the shoes of others and tries to understand others' reasoning
-- **Proactivity and willingness to wear multiple hats** - Steps up when the situation requires it
-- **Project management** - Able to orchestrate multiple work streams to meet timelines and unblock tasks
-- **Conflict management** - Able to manage conflict between themselves and or between other parties, by explaining and ensuring no hard feelings remain
+- Assess whether a candidate has a history of demonstrating the right behaviors that would make them successful at the company.
+- Assess the seniority of the candidate e.g. junior, senior, or staff.
 
 <InDocAd />
 
@@ -100,7 +94,7 @@ As aforementioned, most top tech companies use their company values to evaluate 
 
 ### 4. Try out mock behavioral interviews
 
-If you would like to practice behavioral interviews with professional interviewers from top tech companies, schedule one with [interviewing.io](https://iio.sh/r/DMCa). Interviewing.io boasts a large pool of interviewers from Facebook, Amazon, Apply, Google and Microsoft. I have used [interviewing.io](https://iio.sh/r/DMCa) both as an interviewer and interviewee and can guarantee a good experience with this platform.
+If you would like to practice behavioral interviews with professional interviewers from top tech companies, schedule one with [interviewing.io](https://iio.sh/r/DMCa). Interviewing.io boasts a large pool of interviewers from Facebook, Amazon, Apple, Google and Microsoft. I have used [interviewing.io](https://iio.sh/r/DMCa) both as an interviewer and interviewee and can guarantee a good experience with this platform.
 
 ### 5. Use structured courses
 
