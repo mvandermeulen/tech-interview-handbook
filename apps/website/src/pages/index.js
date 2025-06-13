@@ -116,9 +116,7 @@ function Home() {
       <HowToUseSection />
       <FAANGTechLeadsSection />
       <FeaturesSection />
-      <AlgoMonsterSection />
       <SuccessStoriesSection />
-      <DesignGurusSection />
       <SponsorshipSection />
       <PreFooterSection />
     </Layout>
@@ -162,7 +160,7 @@ function HeroSection() {
             src="https://ghbtns.com/github-btn.html?user=yangshun&amp;repo=tech-interview-handbook&amp;type=star&amp;count=true&amp;size=large"
             frameBorder={0}
             scrolling={0}
-            width={160}
+            width={170}
             height={30}
             title="GitHub Stars"
           />
@@ -425,44 +423,6 @@ function FeaturesSection() {
   );
 }
 
-function DesignGurusSection() {
-  return (
-    <div
-      className={clsx('padding-vert--lg')}
-      style={{ backgroundColor: '#6fc8cc' }}>
-      <div className="container">
-        <div className="row">
-          <div className="col col--8 col--offset-2">
-            <div className="margin-vert--lg text--center">
-              <div>
-                <h2 style={{ color: '#083436' }}>
-                  <strong>
-                    Tired of grinding mindlessly? Grokking the Coding Interview
-                    is the recommended way to quickly learn coding question
-                    patterns to help you ace the coding interviews.
-                  </strong>
-                </h2>
-                <div className="margin-vert--lg">
-                  <a
-                    className="button button--secondary button--lg"
-                    href="https://designgurus.org/link/kJSIoU?url=https%3A%2F%2Fdesigngurus.org%2Fcourse%3Fcourseid%3Dgrokking-the-coding-interview"
-                    rel="noopener"
-                    target="_blank"
-                    onClick={() => {
-                      window.gtag('event', 'designgurus.homepage.click');
-                    }}>
-                    Learn efficiently&nbsp;&nbsp;→
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
 function FAANGTechLeadsSection() {
   return (
     <div
@@ -519,80 +479,29 @@ function GreatFrontEndSection() {
                   className={styles.sectionSponsorTitle}
                   style={{ fontSize: 'var(--ifm-h2-font-size)' }}>
                   <strong>
-                    Spend less time but prepare better for your Front End
-                    Interviews with{' '}
+                    Built by ex-FAANG Senior Engineers,{' '}
                     <a
-                      href="https://www.greatfrontend.com/?utm_source=techinterviewhandbook&utm_medium=referral&utm_content=homepage&fpr=techinterviewhandbook"
-                      style={{ color: '#fff', textDecoration: 'underline' }}>
-                      Great Front End's
+                      href="https://www.greatfrontend.com/?fpr=yangshun&utm_source=techinterviewhandbook&utm_medium=referral&utm_content=homepage"
+                      style={{ color: '#fff', textDecoration: 'underline' }}
+                      target="_blank">
+                      GreatFrontEnd
                     </a>{' '}
-                    large pool of high quality practice questions and solutions.
+                    is the fastest way to prepare for a front end interview job.
                   </strong>
                 </h3>
                 <div className="margin-vert--lg">
                   <a
                     className="button button--secondary button--lg"
-                    href="https://www.greatfrontend.com/questions/javascript/flatten?utm_source=techinterviewhandbook&utm_medium=referral&utm_content=homepage&fpr=techinterviewhandbook"
+                    href="https://www.greatfrontend.com/prepare?fpr=yangshun&utm_source=techinterviewhandbook&utm_medium=referral&utm_content=homepage"
                     rel="noopener"
                     target="_blank"
                     onClick={() => {
                       window.gtag(
                         'event',
-                        'greatfrontend.homepage.question.click',
+                        'greatfrontend.homepage.prepare.click',
                       );
                     }}>
-                    Try a question &nbsp;&nbsp;→
-                  </a>{' '}
-                  <a
-                    className="button button--secondary button--lg"
-                    href="https://www.greatfrontend.com/get-started?utm_source=techinterviewhandbook&utm_medium=referral&utm_content=homepage&fpr=techinterviewhandbook"
-                    rel="noopener"
-                    target="_blank"
-                    onClick={() => {
-                      window.gtag(
-                        'event',
-                        'greatfrontend.homepage.study_plan.click',
-                      );
-                    }}>
-                    View study plans &nbsp;&nbsp;→
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function AlgoMonsterSection() {
-  return (
-    <div
-      className={clsx('padding-vert--lg')}
-      style={{ backgroundImage: 'linear-gradient(270deg, #3e1792, #6a45b9)' }}>
-      <div className="container">
-        <div className="row">
-          <div className="col col--8 col--offset-2">
-            <div className="margin-vert--lg text--center">
-              <div>
-                <h2 className={styles.sectionSponsorTitle}>
-                  <strong>
-                    Developed by Google engineers, AlgoMonster is the fastest
-                    way to get a software engineering job. Join today for a 70%
-                    discount!
-                  </strong>
-                </h2>
-                <div className="margin-vert--lg">
-                  <a
-                    className="button button--secondary button--lg"
-                    href="https://shareasale.com/r.cfm?b=1873647&u=3114753&m=114505&urllink=&afftrack="
-                    rel="noopener"
-                    target="_blank"
-                    onClick={() => {
-                      window.gtag('event', 'algomonster.homepage.click');
-                    }}>
-                    Study with a plan&nbsp;&nbsp;→
+                    Try it out &nbsp;&nbsp;→
                   </a>
                 </div>
               </div>
@@ -836,7 +745,7 @@ function SuccessStoriesSection() {
         <p className="margin-vert--lg text--center">
           Would you like to contribute a success story?{' '}
           <a
-            href="https://github.com/yangshun/tech-interview-handbook/edit/master/website/src/data/successStories.js"
+            href="https://github.com/yangshun/tech-interview-handbook/edit/main/apps/website/src/data/successStories.js"
             rel="noopener"
             target="_blank">
             Open a Pull Request here
@@ -892,7 +801,7 @@ function SponsorshipSection() {
             </div>
             <div className="margin-top--lg text--center">
               <a
-                className="button button--primary button--lg margin-right--md"
+                className="button button--primary button--lg margin-right--md margin-bottom--sm"
                 href="mailto:contact@techinterviewhandbook.org"
                 rel="noopener"
                 target="_blank">

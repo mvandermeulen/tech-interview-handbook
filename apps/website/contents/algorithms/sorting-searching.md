@@ -33,7 +33,7 @@ While you're unlikely to be asked to implement a sorting algorithm from scratch 
 
 - Readings
   - [Sorting Out The Basics Behind Sorting Algorithms](https://medium.com/basecs/sorting-out-the-basics-behind-sorting-algorithms-b0a032873add), basecs
-  - [Binary Search](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/), Khan Academy
+  - [Binary Search](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search), Khan Academy
 - Additional (only if you have time)
   - [Exponentially Easy Selection Sort](https://medium.com/basecs/exponentially-easy-selection-sort-d7a34292b049), basecs
   - [Bubbling Up With Bubble Sorts](https://medium.com/basecs/bubbling-up-with-bubble-sorts-3df5ac88e592), basecs
@@ -47,10 +47,10 @@ While you're unlikely to be asked to implement a sorting algorithm from scratch 
 - Videos
   - [Heapsort](https://youtu.be/ryRfapIQHW0) ([slides](https://samuelalbanie.com/files/digest-slides/2022-12-brief-guide-to-heapsort-and-binary-heaps.pdf)), Samuel Albanie, University of Cambridge
   - [Quicksort](https://youtu.be/kbiKn1K08RM) ([slides](https://samuelalbanie.com/files/digest-slides/2023-01-brief-guide-to-quicksort.pdf)), Samuel Albanie, University of Cambridge
-  - [Lower bounds for comparison sorts](https://www.youtube.com/watch?v=JWSiXs9aB5U) ([slides](https://samuelalbanie.com/files/digest-slides/2023-01-2023-01-brief-guide-to-comparison-sorting-lower-bounds.pdf)), Samuel Albanie, University of Cambridge
+  - [Lower bounds for comparison sorts](https://www.youtube.com/watch?v=JWSiXs9aB5U) ([slides](https://samuelalbanie.com/files/digest-slides/2023-01-brief-guide-to-comparison-sorting-lower-bounds.pdf)), Samuel Albanie, University of Cambridge
   - [Counting sort](https://www.youtube.com/watch?v=0aMcZpAySjw) ([slides](https://samuelalbanie.com/files/digest-slides/2023-01-brief-guide-to-counting-sort.pdf)), Samuel Albanie, University of Cambridge
   - [Radix sort](https://www.youtube.com/watch?v=HzPbzQi9404) ([slides](https://samuelalbanie.com/files/digest-slides/2023-01-brief-guide-to-radix-sort.pdf)), Samuel Albanie, University of Cambridge
-  - [Bucket sort](https://www.youtube.com/watch?v=mz2fBJyoEVc) ([slides](https://samuelalbanie.com/files/digest-slides/2023-01-brief-guide-to-bucket-sort.pdf)), Samuel Albanie, University of Cambridge 
+  - [Bucket sort](https://www.youtube.com/watch?v=mz2fBJyoEVc) ([slides](https://samuelalbanie.com/files/digest-slides/2023-01-brief-guide-to-bucket-sort.pdf)), Samuel Albanie, University of Cambridge
 
 ## Time complexity
 
@@ -71,7 +71,7 @@ While you're unlikely to be asked to implement a sorting algorithm from scratch 
 
 ## Things to look out for during interviews
 
-Make sure you know the time and space complexity of the language's default sorting algorithm! The time complexity is almost definitely O(nlog(n))). Bonus points if you can name the sort. In Python, it's [Timsort](https://en.wikipedia.org/wiki/Timsort).
+Make sure you know the time and space complexity of the language's default sorting algorithm! The time complexity is almost definitely O(nlog(n))). Bonus points if you can name the sort. In Python, it's [Timsort](https://en.wikipedia.org/wiki/Timsort). In Java, [an implementation of Timsort](https://github.com/openjdk/jdk/blob/d9052b946682d1c0f2629455d73fe4e6b95b29db/src/java.base/share/classes/java/util/TimSort.java) is used for sorting objects, and [Dual-Pivot Quicksort](https://github.com/openjdk/jdk/blob/d9052b946682d1c0f2629455d73fe4e6b95b29db/src/java.base/share/classes/java/util/DualPivotQuicksort.java) is used for sorting primitives.
 
 ## Corner cases
 

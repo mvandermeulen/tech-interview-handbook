@@ -37,7 +37,7 @@ To assess these focus areas, interviewers ask questions on your work history and
 
 ## Example questions and responses
 
-Below are questions and answers illustrating how interviewers collect signals on the candidate for each focus area. In a typical interview, they'll ask the you five or six questions and dive deep into the details of each situation. Each question may provide signals on more than one focus area.
+Below are questions and answers illustrating how interviewers collect signals on the candidate for each focus area. In a typical interview, they'll ask you five or six questions and dive deep into the details of each situation. Each question may provide signals on more than one focus area.
 
 ### Motivation
 
@@ -110,7 +110,7 @@ Example Responses:
 Example Questions:
 
 - Describe a situation when you made a mistake, and what you learned from it.
-- Tell me about some constructive feedback you received from a manager or a peer
+- Tell me about some constructive feedback you received from a manager or a peer.
 - Tell me about a skill set that you observed in a peer or mentor that you want to develop in the next six months.
 
 Example Responses:
